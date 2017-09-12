@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/activity_home_bg"
+              android:orientation="vertical"
+              android:paddingBottom="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingBottom="60dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/btn_classic"
+            style="@style/HomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_classic"/>
+
+        <Button
+            android:id="@+id/btn_time"
+            style="@style/HomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_time"/>
+
+        <Button
+            android:id="@+id/btn_two_players"
+            style="@style/HomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/two_players"/>
+
+        <Button
+            android:id="@+id/btn_settings"
+            style="@style/HomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"/>
+
+        <Button
+            android:id="@+id/btn_quit"
+            style="@style/HomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_quit"/>
+
+    </LinearLayout>
+
+
+    <!--<include layout="@layout/layout_ads"/>-->
+
+</LinearLayout>

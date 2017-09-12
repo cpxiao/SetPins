@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Home Button. -->
+    <style name="HomeBtn">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/activity_home_btn_bg</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+
+</resources>
