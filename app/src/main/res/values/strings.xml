@@ -4,8 +4,10 @@
     <string name="btn_classic">Classic Mode</string>
     <string name="btn_time">Time Mode</string>
     <string name="two_players">2 Players</string>
+    <string name="rate_app">Rate this app</string>
+    <string name="share">Share</string>
+    <string name="best_score">Best Score</string>
     <string name="settings">Settings</string>
-    <string name="btn_quit">Quit</string>
     <string name="play">Play</string>
     <string name="play_again">Play Again</string>
     <string name="btn_level_list">Level List</string>
@@ -26,5 +28,6 @@
 
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
-    <string name="quit_msg">Quit the Game?</string>
+    <string name="quit_msg">Quit the Game ?</string>
+    <string name="share_msg">"Share an app for you."</string>
 </resources>

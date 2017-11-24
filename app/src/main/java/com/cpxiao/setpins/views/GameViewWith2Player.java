@@ -48,16 +48,16 @@ public class GameViewWith2Player extends GameView implements View.OnTouchListene
 
     static {
         mTopPlayerCirclePaint.setAntiAlias(true);//抗锯齿
-        mTopPlayerCirclePaint.setDither(true);//防抖动
+//        mTopPlayerCirclePaint.setDither(true);//防抖动
 
         mBottomPlayerCirclePaint.setAntiAlias(true);//抗锯齿
-        mBottomPlayerCirclePaint.setDither(true);//防抖动
+//        mBottomPlayerCirclePaint.setDither(true);//防抖动
 
         mAnimationTopArcPaint.setAntiAlias(true);//抗锯齿
-        mAnimationTopArcPaint.setDither(true);//防抖动
+//        mAnimationTopArcPaint.setDither(true);//防抖动
 
         mAnimationBottomArcPaint.setAntiAlias(true);//抗锯齿
-        mAnimationBottomArcPaint.setDither(true);//防抖动
+//        mAnimationBottomArcPaint.setDither(true);//防抖动
 
     }
 

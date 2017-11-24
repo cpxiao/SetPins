@@ -43,7 +43,7 @@ public class TimingGameFragment extends BaseZAdsFragment implements OnGameListen
 
     @Override
     protected void initView(View view, Bundle savedInstanceState) {
-        loadZAds(ZAdPosition.POSITION_BEST_SCORE);
+        loadZAds(ZAdPosition.POSITION_GAME);
 
         final Context context = getHoldingActivity();
         Button titleBarLeftBtn = (Button) view.findViewById(R.id.title_bar_left_btn);

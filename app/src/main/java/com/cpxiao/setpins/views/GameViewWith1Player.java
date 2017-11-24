@@ -43,7 +43,7 @@ public class GameViewWith1Player extends GameView implements View.OnClickListene
 
     static {
         mAnimationCirclePaint.setAntiAlias(true);//抗锯齿
-        mAnimationCirclePaint.setDither(true);//防抖动
+//        mAnimationCirclePaint.setDither(true);//防抖动
 
     }
 

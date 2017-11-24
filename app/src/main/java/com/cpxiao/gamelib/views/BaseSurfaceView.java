@@ -1,4 +1,4 @@
-package com.cpxiao.gamelib.view;
+package com.cpxiao.gamelib.views;
 
 import android.content.Context;
 import android.graphics.Bitmap;

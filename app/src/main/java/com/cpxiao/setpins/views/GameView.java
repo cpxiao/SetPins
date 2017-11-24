@@ -7,7 +7,7 @@ import android.support.v4.content.ContextCompat;
 
 import com.cpxiao.R;
 import com.cpxiao.setpins.mode.CenterCircle;
-import com.cpxiao.gamelib.view.BaseSurfaceViewFPS;
+import com.cpxiao.gamelib.views.BaseSurfaceViewFPS;
 
 /**
  * GameView
@@ -32,23 +32,23 @@ public class GameView extends BaseSurfaceViewFPS {
 
     static {
         mCenterCirclePaint.setAntiAlias(true);//抗锯齿
-        mCenterCirclePaint.setDither(true);//防抖动
+//        mCenterCirclePaint.setDither(true);//防抖动
 
         mCenterCircleTextPaint.setAntiAlias(true);//抗锯齿
-        mCenterCircleTextPaint.setDither(true);//防抖动
+//        mCenterCircleTextPaint.setDither(true);//防抖动
         mCenterCircleTextPaint.setStrokeWidth(3);
         mCenterCircleTextPaint.setTextAlign(Paint.Align.CENTER);
         mCenterCircleTextPaint.setColor(Color.WHITE);
 
         mLinePaint.setAntiAlias(true);//抗锯齿
-        mLinePaint.setDither(true);//防抖动
+//        mLinePaint.setDither(true);//防抖动
         mLinePaint.setStrokeWidth(5);
 
         mSmallCirclePaint.setAntiAlias(true);//抗锯齿
-        mSmallCirclePaint.setDither(true);//防抖动
+//        mSmallCirclePaint.setDither(true);//防抖动
 
         mSmallCircleTextPaint.setAntiAlias(true);//抗锯齿
-        mSmallCircleTextPaint.setDither(true);//防抖动
+//        mSmallCircleTextPaint.setDither(true);//防抖动
         mSmallCircleTextPaint.setStrokeWidth(3);
         mSmallCircleTextPaint.setTextAlign(Paint.Align.CENTER);
         mSmallCircleTextPaint.setColor(Color.WHITE);

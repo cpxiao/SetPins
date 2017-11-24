@@ -7,17 +7,18 @@ import android.widget.FrameLayout;
 
 import com.cpxiao.R;
 import com.cpxiao.androidutils.library.utils.ThreadUtils;
+import com.cpxiao.gamelib.fragment.BaseZAdsFragment;
 import com.cpxiao.setpins.imps.OnTwoPlayerGameListener;
 import com.cpxiao.setpins.mode.LevelData;
 import com.cpxiao.setpins.views.GameViewWith2Player;
 import com.cpxiao.setpins.views.RotateTextView;
-import com.cpxiao.gamelib.fragment.BaseFragment;
+import com.cpxiao.zads.core.ZAdPosition;
 
 /**
  * @author cpxiao on 2017/09/02.
  */
 
-public class TwoPlayerGameFragment extends BaseFragment implements OnTwoPlayerGameListener {
+public class TwoPlayerGameFragment extends BaseZAdsFragment implements OnTwoPlayerGameListener {
     /**
      * 多少分一局
      */
@@ -39,6 +40,8 @@ public class TwoPlayerGameFragment extends BaseFragment implements OnTwoPlayerGa
 
     @Override
     protected void initView(View view, Bundle savedInstanceState) {
+        loadZAds(ZAdPosition.POSITION_GAME);
+
         mTopPlayerMsgView = (RotateTextView) view.findViewById(R.id.top_player_msg);
         mTopPlayerMsgView.setText("");
         mBottomPlayerMsgView = (RotateTextView) view.findViewById(R.id.bottom_player_msg);
